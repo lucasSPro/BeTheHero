@@ -1,29 +1,20 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-console */
 const express = require('express');
-const crypto = require('crypto');
-
-const connection = require('./database/connection');
+const OngsController = require('./controllers/OngsController');
+const IncidentController = require('./controllers/IncidentController');
+const ProfileController = require('./controllers/ProfileController');
+const SessionController = require('./controllers/SessionController');
 
 const routes = express.Router();
 
-routes.post('/ongs', async (request, response) => {
-  const {
-    name, email, whatsapp, city, uf,
-  } = request.body;
+routes.get('/ongs', OngsController.index);
+routes.post('/ongs', OngsController.create);
 
-  const id = crypto.randomBytes(4).toString('HEX');
+routes.get('/incidents', IncidentController.index);
+routes.post('/incidents', IncidentController.create);
 
-  await connection('ongs').insert({
-    id,
-    name,
-    email,
-    whatsapp,
-    city,
-    uf,
-  });
-
-  return response.json({ id });
-});
+routes.get('/profile', ProfileController.index);
+routes.post('/session', SessionController.create);
 
 module.exports = routes;
