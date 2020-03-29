@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 /* eslint-disable camelcase */
 /* eslint-disable no-unused-vars */
 const connection = require('../database/connection');
@@ -44,6 +45,7 @@ module.exports = {
     const { id } = request.params;
     const ong_id = request.headers.authorization;
 
+
     const incident = await connection('incidents')
       .where('id', id)
       .select('ong_id')
@@ -53,7 +55,7 @@ module.exports = {
       return response.status(401).json({ error: 'Operation not permitted' });
     }
     await connection('incidents').where('id', id).delete();
-
+    console.log({ id, ong_id });
     return response.status(204).send();
   },
 };
