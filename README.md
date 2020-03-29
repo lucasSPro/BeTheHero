@@ -1,4 +1,6 @@
-# BeTheHero ![BeTheHero](https://github.com/lucasSPro/BeTheHero/blob/master/Frontend/src/assets/logo.svg)
+First Header | Second Header
+------------ | -------------
+# BeTheHero | ![BeTheHero](https://github.com/lucasSPro/BeTheHero/blob/master/Frontend/src/assets/logo.svg)
 Developed through the week OmniStack
 ## Getting Started
 
