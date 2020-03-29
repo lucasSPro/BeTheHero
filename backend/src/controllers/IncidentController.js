@@ -1,6 +1,4 @@
-/* eslint-disable no-console */
-/* eslint-disable camelcase */
-/* eslint-disable no-unused-vars */
+
 const connection = require('../database/connection');
 
 module.exports = {
