@@ -1,5 +1,5 @@
 
-                                ![BeTheHero](https://github.com/lucasSPro/BeTheHero/blob/master/Frontend/src/assets/logo.svg)
+  ![BeTheHero](https://github.com/lucasSPro/BeTheHero/blob/master/Frontend/src/assets/logo.svg)
 
 Developed through the week OmniStack
 
