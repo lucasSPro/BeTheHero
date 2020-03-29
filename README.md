@@ -1,4 +1,4 @@
-<img align="center" src="https://github.com/lucasSPro/BeTheHero/blob/master/Frontend/src/assets/logo.svg)" alt="BeTheHero"/>
+![BeTheHero](https://github.com/lucasSPro/BeTheHero/blob/master/Frontend/src/assets/logo.svg)
 
 
 Developed through the week OmniStack
