@@ -56,4 +56,9 @@ export default StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
   },
+  detailsButtonText: {
+    color: '#e02041',
+    fontSize: 15,
+    fontWeight: 'bold',
+  },
 });
