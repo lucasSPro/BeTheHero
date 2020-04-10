@@ -1,4 +1,8 @@
-![BeTheHero](https://github.com/lucasSPro/BeTheHero/blob/master/Frontend/src/assets/logo.svg)
+<h1 align="center">
+    <img alt="BeTheHero" src="https://github.com/lucasSPro/BeTheHero/blob/master/Frontend/src/assets/logo.svg" />
+    <br>
+    React Native BeTheHero
+</h1>
 
 
 Developed through the week OmniStack :rocket:
@@ -11,3 +15,8 @@ Developed through the week OmniStack :rocket:
 npm start
 
 ```
+<h1 align="center">
+    <img alt="BeTheHero" src="https://github.com/lucasSPro/BeTheHero/blob/master/mobile/beTheHero_mobile.gif" />
+    <br>
+    React Native BeTheHero
+</h1>
